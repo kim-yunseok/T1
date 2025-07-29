@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>ONE. STILL. FOREVER.</title>
+    <link href="0729.css" type="text/css" rel="stylesheet"/>
+</head>
+<body style="background-color: red;">
+
+  <!-- 로고 이미지 가운데 정렬 -->
+  <div style="text-align: center;">
+    <a href="./Aboutme.html" target="_blank">
+      <img src="logo.jpg" width="40" height="40" style="padding:10px;">
+  </div>
+
+  <!-- 내비게이션 링크도 정렬 -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <a style="color:black; margin: 30px" href="./index.html">Home</a>
+    <a style="color:black; margin: 30px" href="#">Blog</a>
+    <a style="color:black; margin: 30px" href="./Aboutme.html">About Me</a>
+    <a style="color:black; margin: 30px" href="./Aboutme.html">Community</a>
+  </div>
+
+  <!-- 선수 정보 -->
+  <h1 class="T1">T1</h1>
+  <h2 style="color:darkkhaki; text-align: center;">★★★★★</h2>
+ <h3 class="doran">
+  <a href="https://www.instagram.com/t1doran/" target="_blank" style="text-decoration: none; color: inherit;">
+    Doran
+  </a>
+</h3>
+ <h3 class="oner">
+  <a href="https://www.instagram.com/t1_oner/" target="_blank" style="text-decoration: none; color: inherit;">
+    Oner
+  </a>
+</h3>
+ <h3 class="faker">
+  <a href="https://www.instagram.com/faker/" target="_blank" style="text-decoration: none; color: inherit;">
+    Faker
+  </a>
+</h3>
+  <h3 class="gumayusi">
+  <a href="https://www.instagram.com/t1_gumayusi/" target="_blank" style="text-decoration: none; color: inherit;">
+    Gumayusi
+  </a>
+</h3>
+  <h3 class="keria">
+  <a href="https://www.instagram.com/keria_minseok/" target="_blank" style="text-decoration: none; color: inherit;">
+    Keria
+  </a>
+</h3>
+
+  <!-- 유튜브 영상 가운데 정렬 -->
+<div style="text-align: center;">
+  <iframe width="800" height="300"
+    src="https://www.youtube.com/embed/LGdRymaxx78?autoplay=1&mute=1"
+    title="ONE. STILL. FOREVER."
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
+<!-- 댓글 영역 -->
+<div id="disqus_thread" style="width: 800px; margin: 20px auto;"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = window.location.pathname;
+  };
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://your-disqus-shortname.disqus.com/embed.js';  // your-disqus-shortname 교체 필수
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>댓글을 보시려면 자바스크립트를 활성화 해주세요.</noscript>
+</body>
+</html>

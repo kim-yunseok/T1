@@ -17,23 +17,22 @@
   </div>
 
   <!-- 내비게이션 링크도 정렬 -->
-  <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-  <div class="bg-dark p-4">
-    <h5 class="text-body-emphasis h4">Collapsed content</h5>
-    <span class="text-body-secondary">Toggleable via the navbar brand.</span>
-  </div>
-</div>
 <nav class="navbar navbar-dark bg-black">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="container-fluid d-flex justify-content-start align-items-center">
+    <!-- 햄버거 버튼 -->
+    <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-        <div style="text-align: center; margin-bottom: 20px;">
-    <a style="color:red; margin: 20px; font-size: x-large; text-align: left;" href="index2.html">Home</a>
-    <a style="color:red; margin: 20px;font-size: x-large; text-align: left;" href="bloglist.html">Blog</a>
-    <a style="color:red; margin: 20px;font-size: x-large; text-align: left;" href="./index.html">About Me</a>
-    <a style="color:red; margin: 20px;font-size: x-large; text-align: left;" href="./index.html">Community</a>
-  </div>
+
+    <!-- 왼쪽 정렬된 메뉴 링크들 -->
+    <div class="d-flex">
+      <a class="nav-link" style="color:red; margin-right: 20px; font-size: x-large;" href="index2.html">Home</a>
+      <a class="nav-link" style="color:red; margin-right: 20px; font-size: x-large;" href="bloglist.html">Blog</a>
+      <a class="nav-link" style="color:red; margin-right: 20px; font-size: x-large;" href="./index.html">About Me</a>
+      <a class="nav-link" style="color:red; margin-right: 20px; font-size: x-large;" href="./index.html">Community</a>
+    </div>
   </div>
 </nav>
 
